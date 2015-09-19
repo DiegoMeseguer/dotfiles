@@ -1,0 +1,67 @@
+! Terminal Colors
+! Special
+*foreground: #c5c8c6
+*background: #1d1f21
+! Black
+*color0:  #1d1f21
+*color8:  #969896
+! Red
+*color1:  #cc342b
+*color9:  #cc342b
+! Green
+*color2:  #198844
+*color10: #198844
+! Yellow
+*color3:  #fba922
+*color11: #fba922
+! Blue
+*color4:  #3971ed
+*color12: #3971ed
+! Magenta
+*color5:  #a36ac7
+*color13: #a36ac7
+! Cyan
+*color6:  #3971ed
+*color14: #3971ed
+! White
+*color7:  #c5c8c6
+*color15: #ffffff
+
+! XScreenSaver
+! Fonts
+xscreensaver.Dialog.headingFont:        -*-Terminus-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-Terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-Terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-Terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-Terminus-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-Terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-Terminus-bold-r-*-*-12-*-*-*-*-*-*-*
+! Colors
+xscreensaver.Dialog.foreground:         #c5c8c6
+xscreensaver.Dialog.background:         #1d1f21
+xscreensaver.Dialog.topShadowColor:     #1d1f21
+xscreensaver.Dialog.bottomShadowColor:  #1d1f21
+xscreensaver.Dialog.Button.foreground:  #c5c8c6
+xscreensaver.Dialog.Button.background:  #3971ed
+xscreensaver.Dialog.text.foreground:    #c5c8c6
+xscreensaver.Dialog.text.background:    #1d1f21
+xscreensaver.passwd.thermometer.foreground:  #3971ed
+xscreensaver.passwd.thermometer.background:  #000000
+! Borders
+xscreensaver.Dialog.borderWidth: 0
+
+! Terminal Font
+xterm*faceName: Source Code Pro:pixelsize=12
+
+! Cursor Theme
+Xcursor.theme: DMZ-White
+Xcursor.size: 22
+
+! Xft
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+Xft.autohint: 0
