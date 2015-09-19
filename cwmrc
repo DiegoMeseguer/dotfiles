@@ -1,0 +1,84 @@
+# Set window border settings
+borderwidth 4
+color activeborder '#3971ed'
+color groupborder '#198844'
+color inactiveborder '#969896'
+color urgencyborder '#cc342b'
+color ungroupborder '#a36ac7'
+
+# Set default Xft(3) font
+fontname "Source Code Pro:pixelsize=13"
+
+# Toggle sticky group mode
+sticky yes
+
+# Ignore when drawing borders and cycling through windows
+ignore xclock
+
+# Set menu settings
+color font '#ffffff'
+color menubg '#1d1f21'
+color menufg '#c5c8c6'
+color selfont '#1d1f21'
+
+# Any entry here is shown in the application menu
+command files /usr/local/bin/spacefm
+command firefox /usr/bin/firefox
+command firefox2 '/usr/bin/firefox -no-remote -P "Secondary"'
+command firefox3 '/usr/bin/firefox -no-remote -P "Business"'
+command chromium /usr/bin/chromium
+command racket /usr/bin/drracket
+command news /usr/bin/quiterss
+command music "xterm -e cmus"
+command torrents /usr/bin/qbittorrent
+command network "xterm -e wicd-curses"
+command volume "xterm -e alsamixer"
+command stats "xterm -e htop"
+command lock '/usr/bin/xscreensaver-command -lock'
+command sleep "xterm -e sudo /usr/sbin/pm-suspend"
+command reboot "xterm -e sudo /sbin/reboot"
+command shutdown "xterm -e sudo /sbin/shutdown -h now"
+
+# Custom key bindings
+bind M-1 /usr/bin/xterm
+bind M-2 /usr/local/bin/spacefm
+bind M-3 /usr/bin/firefox
+bind M-4 '/usr/bin/firefox -no-remote -P "Secondary"'
+bind M-5 '/usr/bin/firefox -no-remote -P "Business"'
+bind M-6 /usr/bin/chromium
+bind M-7 /usr/bin/drracket
+bind M-8 /usr/bin/quiterss
+bind M-9 /usr/bin/qbittorrent
+bind M-0 '/usr/bin/xscreensaver-command -lock'
+bind MS-q quit
+bind M-Return terminal
+bind M-p lock
+bind M-d menusearch
+bind M-x exec
+bind MS-x exec_wm
+bind MS-s ssh
+bind MS-1 grouponly1
+bind MS-2 grouponly2
+bind MS-3 grouponly3
+bind MS-4 grouponly4
+bind CM-1 movetogroup1
+bind CM-2 movetogroup2
+bind CM-3 movetogroup3
+bind CM-4 movetogroup4
+bind M-g grouptoggle
+bind M-Right cyclegroup
+bind M-Left rcyclegroup
+bind M-q delete
+bind M-z hide
+bind M-t label
+bind M-d freeze
+bind M-f fullscreen
+bind M-m maximize
+bind M-v vmaximize
+bind M-b hmaximize 
+mousebind M-3 window_resize
+mousebind S-3 menu_group
+
+# Unmap bindings
+mousebind M-2 unmap
+bind CM-Delete unmap
