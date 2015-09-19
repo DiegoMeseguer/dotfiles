@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/share/icons/ACYL/scalable/scripts/
+exec /usr/share/icons/ACYL/scalable/scripts/script_gui.py $@
