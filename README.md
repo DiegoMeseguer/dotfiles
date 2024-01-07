@@ -1,2 +1,2 @@
 # dotfiles
-Linux config files
+Slackware config files
